@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAM B12 Services Limited</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #002f6c, #004aad);
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        nav {
+            background-color: #001f3f;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #002f6c;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .about p {
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-box {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .service-box h3 {
+            color: #004aad;
+            margin-bottom: 10px;
+        }
+
+        .why-us {
+            background-color: #e9eff7;
+            border-radius: 10px;
+            padding: 40px;
+        }
+
+        .why-us ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .why-us li {
+            padding: 10px 0;
+            font-size: 16px;
+        }
+
+        .contact {
+            background: #fff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            background-color: #001f3f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+    <h1>BAM B12 SERVICES LIMITED</h1>
+    <p>Delivering Excellence in Contracting, Supplies, Procurement, Printing, and General Services Across Nigeria</p>
+</header>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        BAM B12 Services Limited is a Nigerian-owned company committed to delivering high-quality contracting,
+        supplies, procurement, printing, and general services to both public and private sector clients.
+        We pride ourselves on professionalism, integrity, efficiency, and timely service delivery.
+    </p>
+    <p>
+        Our team combines industry experience with a strong understanding of local and international business standards,
+        enabling us to provide reliable solutions tailored to our clients’ needs.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Contracting</h3>
+            <p>Execution of construction, maintenance, and service contracts with strict adherence to quality and safety standards.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Supplies</h3>
+            <p>Provision of office supplies, industrial materials, and general goods sourced from trusted vendors.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Procurement</h3>
+            <p>Efficient procurement services ensuring cost-effectiveness, transparency, and timely delivery.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Printing Services</h3>
+            <p>Professional printing solutions including branding materials, business documents, and promotional items.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>General Services</h3>
+            <p>Comprehensive general services designed to support organizational operations and project execution.</p>
+        </div>
+    </div>
+</section>
+
+<section class="why-us">
+    <h2>Why Choose Us</h2>
+    <ul>
+        <li>✔ Commitment to quality and professionalism</li>
+        <li>✔ Reliable and timely service delivery</li>
+        <li>✔ Experienced and dedicated team</li>
+        <li>✔ Competitive pricing and transparency</li>
+        <li>✔ Strong understanding of the Nigerian market</li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>
+        <strong>BAM B12 Services Limited</strong><br>
+        Nigeria<br><br>
+        Email: info@bamb12services.com<br>
+        Phone: +234 XXX XXX XXXX
+    </p>
+</section>
+
+<footer>
+    © 2026 BAM B12 Services Limited. All Rights Reserved.
+</footer>
+
+</body>
+</html>
