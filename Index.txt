@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><meta name="description" content="BAM B12 Services Limited is a Nigerian company providing professional contracting, supplies, procurement, printing and general services across Nigeria.">
+<meta name="keywords" content="Contracting services Nigeria, Procurement company Nigeria, Printing services Nigeria, General services company, BAM B12 Services Limited">
+<meta name="author" content="BAM B12 Services Limited">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAM B12 Services Limited</title>
@@ -204,3 +207,4 @@
 
 </body>
 </html>
+
