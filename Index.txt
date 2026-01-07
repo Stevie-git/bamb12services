@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAM B12 Services Limited</title>
     <style>
-<a href="https://wa.me/234XXXXXXXXXX" 
+<a href="https://wa.me/2349033503631" 
    style="
    position: fixed;
    bottom: 20px;
@@ -223,5 +223,6 @@
 
 </body>
 </html>
+
 
 
